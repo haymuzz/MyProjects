@@ -1,4 +1,4 @@
-# Портфолио аналитика данных — Егор Хаймусов
+# Портфолио
 
 Привет! Меня зовут **Егор Хаймусов**, я **Junior Data Analyst**.
 
@@ -8,7 +8,6 @@
 
 - Email: **ha1musov@yandex.ru**
 - Telegram: [@thehaymuz](https://t.me/thehaymuz)
-- GitHub: [github.com/haymuzz](https://github.com/haymuzz)
 - Резюме: [Egor_Khaimusov_Resume.pdf](resume/Egor_Khaimusov_Resume.pdf)
 
 ## Навыки
@@ -35,40 +34,3 @@
 - [Python Practice](archive/python-practice) — 10 самостоятельных задач с обработкой данных, графиками и выводами.
 - [SQL Practice](archive/sql-practice) — 10 аналитических SQL-запросов с CTE, оконными функциями и бизнес-метриками.
 
-## Структура репозитория
-
-```text
-.
-├── README.md
-├── requirements.txt
-├── resume/
-├── docs/
-├── archive/
-│   ├── python-practice/
-│   └── sql-practice/
-├── olist-marketplace-product-analytics/
-├── fraud-detection-risk-scoring/
-├── store-sales-forecasting-etl/
-├── telco-retention-experiment-design/
-├── movielens-recommendation-api/
-└── customer-lifetime-value-segmentation/
-```
-
-## Как запустить
-
-```bash
-git clone https://github.com/haymuzz/analytics-portfolio.git
-cd analytics-portfolio
-python -m venv venv
-venv\Scriptsctivate
-pip install -r requirements.txt
-```
-
-Для macOS / Linux:
-
-```bash
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
-Данные Kaggle нужно скачать отдельно и положить в `data/raw` соответствующего проекта. Подробности находятся в `data/README.md` внутри каждого проекта и в [docs/dataset_sources.md](docs/dataset_sources.md).
