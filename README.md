@@ -1,271 +1,208 @@
-# Analytics & Data Portfolio
+# Analytics Portfolio | Егор Хаймусов
 
-Привет! Меня зовут **Егор Хаймусов**.  
-Я **Junior Data Analyst** из Москвы, развиваюсь в аналитике данных, продуктовой аналитике, ETL-процессах и системном анализе.
+Привет! Меня зовут **Егор Хаймусов**, я **Junior Data Analyst**.
 
-Работаю с данными с помощью **Python**, **SQL**, **pandas**, **NumPy**, PostgreSQL и Greenplum.  
-Мой фокус — очистка и трансформация данных, построение аналитической отчетности, расчет метрик, оптимизация SQL-запросов и автоматизация аналитических процессов.
+В этом репозитории собраны аналитические проекты на открытых датасетах с Kaggle.  
+Основная цель портфолио — показать полный цикл работы аналитика данных: от постановки бизнес-задачи и подготовки данных до анализа, SQL-запросов, визуализации, ML-моделей, интерпретации результатов и бизнес-рекомендаций.
 
 ---
 
-## Contacts
+## Обо мне
 
+Я занимаюсь анализом данных, автоматизацией аналитических процессов и подготовкой отчетности.  
+В работе использую **Python**, **SQL**, **pandas**, **NumPy**, а также инструменты для ETL, проверки качества данных и построения аналитических выводов.
+
+Мне интересны задачи на стыке аналитики данных, продуктовых метрик, системного анализа и машинного обучения.
+
+**Основные направления:**
+
+- анализ данных и поиск инсайтов;
+- SQL-аналитика и работа с витринами данных;
+- очистка, трансформация и валидация данных;
+- построение продуктовых и бизнес-метрик;
+- EDA и визуализация данных;
+- базовое машинное обучение;
+- описание бизнес-процессов и требований;
+- автоматизация аналитических пайплайнов.
+
+---
+
+## Резюме
+
+Актуальное резюме находится в репозитории:
+
+[Открыть резюме](resume/Хаймусов_Егор_Резюме.pdf)
+
+---
+
+## Контакты
+
+- Email: **ha1musov@yandex.ru**
 - Telegram: [@thehaymuz](https://t.me/thehaymuz)
-- Email: [ha1musov@yandex.ru](mailto:ha1musov@yandex.ru)
 
 ---
 
-## Resume
+## Стек технологий
 
-Актуальное резюме доступно в репозитории:
+### Аналитика и обработка данных
 
-[Download resume](./Хаймусов_Егор_Резюме.pdf)
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![SQL](https://img.shields.io/badge/SQL-PostgreSQL%20%7C%20Greenplum-informational)
+![Pandas](https://img.shields.io/badge/pandas-Data%20Analysis-success)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blue)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange)
 
----
+### Машинное обучение
 
-## Tech Stack
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
+![Statsmodels](https://img.shields.io/badge/statsmodels-Statistics-lightgrey)
 
-![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
-![SQL](https://img.shields.io/badge/SQL-PostgreSQL%20%7C%20Greenplum-blue)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-blue)
-![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Analysis-blue)
-![Airflow](https://img.shields.io/badge/Apache%20Airflow-ETL-blue)
-![Git](https://img.shields.io/badge/Git-Version%20Control-blue)
-![Jira](https://img.shields.io/badge/Jira-Task%20Management-blue)
-![Confluence](https://img.shields.io/badge/Confluence-Documentation-blue)
+### Инженерия данных и автоматизация
 
----
+![Airflow](https://img.shields.io/badge/Apache%20Airflow-ETL%20Pipelines-blueviolet)
+![Git](https://img.shields.io/badge/Git-Version%20Control-red)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-green)
+![SQLite](https://img.shields.io/badge/SQLite-Database-lightblue)
 
-## Featured Projects
+### Системный анализ
 
-### 1. Data Cleaning & Analytics Automation
-
-Проект по очистке, валидации и агрегации данных для аналитической отчетности.
-
-Что сделано:
-
-- выполнена очистка и предобработка данных;
-- проведена валидация качества данных;
-- реализована агрегация данных для аналитических отчетов;
-- автоматизирована часть ручной обработки;
-- сокращено время подготовки аналитики.
-
-Стек: `Python`, `pandas`, `NumPy`, `SQL`, `PostgreSQL`
-
-[Открыть проект](./data-cleaning-analytics-automation)
+![BPMN](https://img.shields.io/badge/BPMN-Business%20Processes-purple)
+![UML](https://img.shields.io/badge/UML-System%20Analysis-lightgrey)
+![Requirements](https://img.shields.io/badge/Requirements-Documentation-yellow)
 
 ---
 
-### 2. SQL Analytics & Query Optimization
+## Проекты
 
-Проект по анализу данных с использованием SQL и оптимизации запросов.
-
-Что сделано:
-
-- написаны SQL-запросы для извлечения и анализа данных;
-- проведена подготовка данных для отчетности;
-- выполнена оптимизация запросов;
-- рассчитаны ключевые аналитические показатели;
-- сформированы выводы на основе данных.
-
-Стек: `SQL`, `PostgreSQL`, `Greenplum`, `Data Analysis`
-
-[Открыть проект](./sql-analytics-query-optimization)
+| № | Проект | Датасет | Бизнес-задача | Стек | Результат |
+|---|--------|---------|---------------|------|-----------|
+| 1 | [Fraud Detection & Risk Scoring](projects/01_fraud_detection_risk_scoring) | Credit Card Fraud Detection | Выявление подозрительных транзакций и расчет риск-скора | Python, pandas, sklearn, SQL | Модель классификации, анализ дисбаланса классов, подбор threshold |
+| 2 | [Olist Marketplace Product Analytics](projects/02_olist_marketplace_product_analytics) | Brazilian E-Commerce Public Dataset by Olist | Анализ продаж, доставки, отзывов и клиентского опыта маркетплейса | Python, SQL, pandas | Метрики выручки, SLA доставки, анализ факторов плохих отзывов |
+| 3 | [Customer Lifetime Value & RFM Segmentation](projects/03_customer_lifetime_value_segmentation) | Online Retail / Customer Segmentation | Сегментация клиентов и оценка ценности клиентской базы | Python, SQL, clustering | RFM-сегменты, CLV, рекомендации по удержанию |
+| 4 | [MovieLens Recommendation API](projects/04_movielens_recommender_api) | MovieLens Dataset | Построение рекомендательной системы и API для выдачи рекомендаций | Python, FastAPI, SQLite, sklearn | Baseline-рекомендатель, API, метрики Precision@K |
+| 5 | [Store Sales Forecasting ETL Pipeline](projects/05_store_sales_forecasting_etl) | Store Sales Forecasting | Прогнозирование продаж и автоматизация ETL-процесса | Python, SQL, Airflow, ML | ETL-пайплайн, прогноз спроса, контроль качества данных |
+| 6 | [Telco Retention Experiment Design](projects/06_telco_retention_experiment_design) | Telco Customer Churn | Анализ оттока клиентов и проектирование retention-эксперимента | Python, SQL, statsmodels | Сегменты риска, гипотезы удержания, дизайн A/B-теста |
 
 ---
 
-### 3. Product Metrics & EDA
+## 1. Fraud Detection & Risk Scoring
 
-Проект по исследовательскому анализу данных и расчету продуктовых метрик.
+**Цель проекта:** построить аналитическое решение для выявления потенциально мошеннических транзакций.
 
-Что сделано:
+В проекте рассматривается задача классификации на несбалансированных данных.  
+Основной акцент сделан не только на качестве модели, но и на бизнес-интерпретации результата: как выбирать threshold, как оценивать риск и как снижать количество ложных срабатываний.
 
-- проведен EDA;
-- рассчитаны продуктовые метрики;
-- выявлены факторы, влияющие на ключевые показатели;
-- подготовлены аналитические выводы;
-- оформлена отчетность для принятия решений.
+**Что сделано:**
 
-Стек: `Python`, `pandas`, `EDA`, `Product Analytics`, `Metrics`
+- проведен первичный анализ данных;
+- изучен дисбаланс классов;
+- построены признаки для модели;
+- обучена baseline-модель;
+- рассчитаны ROC-AUC, PR-AUC, Precision, Recall;
+- подобран threshold под бизнес-задачу;
+- подготовлены SQL-запросы для мониторинга подозрительных операций.
 
-[Открыть проект](./product-metrics-eda)
-
----
-
-### 4. API Business Process Testing Concept
-
-Проект по концепции автоматизации тестирования бизнес-процессов через API.
-
-Что сделано:
-
-- проработана концепция AI-платформы для анализа API-цепочек;
-- описана логика сопоставления BPMN и OpenAPI;
-- сформированы требования к системе;
-- описаны сценарии сквозного тестирования;
-- продумана генерация тестовых данных и отчетность по ошибкам.
-
-Стек: `System Analysis`, `BPMN`, `OpenAPI`, `REST API`, `Business Analysis`
-
-[Открыть проект](./api-business-process-testing)
+**Ключевой результат:**  
+получен риск-скор транзакций, который можно использовать для приоритизации проверок.
 
 ---
 
-### 5. Case Championship: X5 Food Ecosystem
+## 2. Olist Marketplace Product Analytics
 
-Кейс-проект по развитию сервиса в экосистеме готовой еды X5 Group.
+**Цель проекта:** проанализировать работу e-commerce маркетплейса и найти факторы, влияющие на клиентский опыт.
 
-Что сделано:
+Проект показывает навыки продуктовой аналитики: расчет метрик, анализ заказов, доставки, отзывов и поведения клиентов.
 
-- проведен анализ рынка готовой еды;
-- выполнена сегментация целевой аудитории;
-- проработана концепция сервиса;
-- описан клиентский путь;
-- подготовлена дорожная карта запуска;
-- собрана базовая финансовая модель.
+**Что сделано:**
 
-Стек: `Market Analysis`, `Product Analytics`, `Customer Journey`, `Financial Model`
+- рассчитаны метрики заказов и выручки;
+- проанализирована динамика продаж;
+- изучены задержки доставки;
+- выявлены категории товаров с высоким риском плохих отзывов;
+- построены SQL-запросы для регулярной аналитической отчетности;
+- сформулированы рекомендации для бизнеса.
 
-[Открыть проект](./x5-food-ecosystem-case)
-
----
-
-## Skills
-
-**Data Analysis**
-
-- Python
-- pandas
-- NumPy
-- SQL
-- PostgreSQL
-- Greenplum
-- EDA
-- Data Cleaning
-- Data Validation
-- Data Aggregation
-
-**Analytics & Metrics**
-
-- Product Metrics
-- Analytical Reporting
-- A/B Testing Basics
-- Statistics Basics
-- Business Insights
-- Presentation of Results
-
-**ETL & Automation**
-
-- ETL processes
-- Data Transformation
-- Apache Airflow
-- REST API
-- Query Optimization
-
-**System Analysis**
-
-- BPMN
-- UML
-- AS-IS / TO-BE
-- Requirements Formalization
-- Business Process Description
-- Jira
-- Confluence
-
-**Machine Learning Basics**
-
-- scikit-learn
-- preprocessing
-- model evaluation
-- basic ML pipelines
+**Ключевой результат:**  
+выявлены зоны, где можно улучшить клиентский опыт: сроки доставки, качество сервиса и категории с повышенным риском негативных отзывов.
 
 ---
 
-## Experience
+## 3. Customer Lifetime Value & RFM Segmentation
 
-### System Analyst — Paper Planes  
-`October 2025 — November 2025`
+**Цель проекта:** сегментировать клиентов и определить группы с разной ценностью для бизнеса.
 
-- описывал бизнес-процессы в BPMN;
-- формировал AS-IS / TO-BE модели;
-- формализовывал требования для разработки;
-- участвовал в постановке задач для команды;
-- работал с логикой процессов и данными.
+Проект демонстрирует работу с клиентской базой, RFM-анализом и базовой кластеризацией.
 
-Результаты:
+**Что сделано:**
 
-- описал 5+ бизнес-процессов;
-- выявил узкие места в процессах;
-- снизил количество доработок за счет точной формализации требований;
-- повысил прозрачность процессов через документацию.
+- рассчитаны Recency, Frequency, Monetary;
+- выделены RFM-сегменты;
+- проведен анализ клиентской ценности;
+- построены признаки для оценки CLV;
+- подготовлены рекомендации для разных групп клиентов;
+- написаны SQL-запросы для формирования клиентской витрины.
 
----
-
-### Data Analyst — DUC Technologies  
-`May 2025 — September 2025`
-
-- анализировал данные в рамках проектных задач;
-- работал с десятками тысяч записей;
-- выполнял очистку, валидацию и агрегацию данных;
-- использовал SQL и Python для обработки данных;
-- готовил аналитические отчеты и презентации.
-
-Результаты:
-
-- обработал и проанализировал 10+ проектов;
-- выявлял факторы влияния на ключевые показатели;
-- повысил качество данных за счет очистки и валидации;
-- сократил время подготовки аналитики на 30%;
-- оптимизировал SQL-запросы и ускорил обработку данных.
+**Ключевой результат:**  
+получены клиентские сегменты, которые можно использовать для CRM-кампаний, удержания и персональных предложений.
 
 ---
 
-## Education
+## 4. MovieLens Recommendation API
 
-**Plekhanov Russian University of Economics**  
-Bachelor’s Degree, Business Informatics  
-Higher School of Cybertechnologies, Mathematics and Statistics  
-`2027`
+**Цель проекта:** построить простую рекомендательную систему и оформить ее в виде API.
 
----
+Проект показывает не только аналитику, но и базовую инженерную часть: хранение данных, подготовку рекомендаций и выдачу результата через REST API.
 
-## Courses
+**Что сделано:**
 
-- Website Layout — NUST MISIS, 2022
-- Entrepreneurial Project Management — PRUE, 2024
-- Statistics and A/B Testing Basics — Yandex Practicum, 2024
-- Machine Learning in Python — Stepik, 2024
-- Artificial Intelligence and Deep Learning Basics — PRUE, 2025
-- Business Analyst in IT — Stepik, 2025
-- System Analyst in IT — Stepik, 2025
+- проведен анализ пользовательских оценок;
+- построена baseline-рекомендательная модель;
+- рассчитаны метрики качества рекомендаций;
+- подготовлена SQLite-база;
+- реализован API на FastAPI;
+- описаны возможные сценарии использования.
 
----
-
-## Publications
-
-- Последствия внедрения дистанционного обучения на психологические и социальные аспекты жизни учащихся и преподавателей
-- Проблемы и перспективы внедрения децентрализованной валюты в качестве платёжного средства
-- Использование пользовательских интерфейсов с эффектом 3D для взаимодействия «человек-компьютер»
+**Ключевой результат:**  
+создан прототип рекомендательного сервиса, который может возвращать персональные рекомендации пользователю.
 
 ---
 
-## About Me
+## 5. Store Sales Forecasting ETL Pipeline
 
-Я аналитик, который любит структурировать данные, процессы и требования.  
-Мне интересно находить закономерности в данных, превращать хаотичную информацию в понятные выводы и помогать принимать решения на основе фактов.
+**Цель проекта:** построить пайплайн для подготовки данных и прогнозирования продаж.
 
-Сильные стороны:
+Проект демонстрирует навыки ETL, автоматизации, контроля качества данных и прогнозирования временных рядов.
 
-- системное мышление;
-- внимательность к данным;
-- структурный подход;
-- умение быстро разбираться в новых задачах;
-- ориентация на результат.
+**Что сделано:**
+
+- описан процесс загрузки и обработки данных;
+- подготовлены проверки качества данных;
+- построены агрегированные витрины;
+- реализована логика ETL-пайплайна;
+- подготовлена структура DAG для Airflow;
+- построена baseline-модель прогноза продаж;
+- рассчитаны MAE, RMSE, MAPE.
+
+**Ключевой результат:**  
+подготовлен воспроизводимый пайплайн, который можно использовать для регулярного обновления прогноза продаж.
 
 ---
 
-## Languages
+## 6. Telco Retention Experiment Design
 
-- Russian — Native
-- English — B2
-- Spanish — A1
-- Belarusian — A2
+**Цель проекта:** проанализировать отток клиентов и спроектировать эксперимент по удержанию.
+
+Проект объединяет аналитику данных, статистику, A/B-тестирование и бизнес-интерпретацию.
+
+**Что сделано:**
+
+- проведен анализ churn rate;
+- выделены сегменты клиентов с высоким риском оттока;
+- сформулированы гипотезы удержания;
+- подготовлен дизайн A/B-теста;
+- рассчитаны основные метрики эксперимента;
+- описаны риски и ограничения анализа.
+
+**Ключевой результат:**  
+подготовлен план retention-эксперимента, который можно использовать для проверки гипотез по снижению оттока.
+
