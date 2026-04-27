@@ -1,4 +1,4 @@
-# Analytics & Data Portfolio
+Portfolio
 
 Меня зовут **Егор Хаймусов**. Я **Junior Data Analyst** из Москвы.
 
