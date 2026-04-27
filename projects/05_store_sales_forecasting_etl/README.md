@@ -36,27 +36,6 @@
 
 Python, pandas, SQL, scikit-learn, Airflow, time series, matplotlib
 
-## Структура проекта
-
-```text
-.
-├── data/
-│   ├── raw/              # файлы Kaggle, не добавляются в Git
-│   └── processed/        # очищенные данные, не добавляются в Git
-├── notebooks/
-│   └── 01_analysis.ipynb
-├── src/
-│   └── README.md
-├── sql/
-│   └── business_metrics.sql
-├── reports/
-│   └── figures/
-├── docs/
-│   └── business_requirements.md
-├── requirements.txt
-└── README.md
-```
-
 ## Ожидаемый результат
 
 forecasting notebook, ETL design, DAG skeleton и monitoring checks.
@@ -75,10 +54,3 @@ forecasting notebook, ETL design, DAG skeleton и monitoring checks.
 - Kaggle-данные могут быть обезличенными, синтетическими или историческими.
 - Метрики нужно интерпретировать как демонстрацию аналитического подхода.
 - Для production-решения потребуется мониторинг качества данных и модели.
-
-## Следующие шаги
-
-- добавить итоговые графики в `reports/figures/`;
-- обновить README фактическими метриками;
-- добавить `requirements.txt` с точными версиями;
-- оформить краткий executive summary в начале проекта.
