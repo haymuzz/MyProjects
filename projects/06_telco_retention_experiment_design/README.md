@@ -36,27 +36,6 @@ Churn-аналитика, сегментация риска и дизайн rete
 
 Python, pandas, SQL, scikit-learn, statsmodels, scipy
 
-## Структура проекта
-
-```text
-.
-├── data/
-│   ├── raw/              # файлы Kaggle, не добавляются в Git
-│   └── processed/        # очищенные данные, не добавляются в Git
-├── notebooks/
-│   └── 01_analysis.ipynb
-├── src/
-│   └── README.md
-├── sql/
-│   └── business_metrics.sql
-├── reports/
-│   └── figures/
-├── docs/
-│   └── business_requirements.md
-├── requirements.txt
-└── README.md
-```
-
 ## Ожидаемый результат
 
 churn scoring, retention-сегменты и полноценный дизайн A/B-эксперимента.
