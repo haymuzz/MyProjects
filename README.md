@@ -12,7 +12,6 @@
 
 - Telegram: [@thehaymuz](https://t.me/thehaymuz)
 - Email: [ha1musov@yandex.ru](mailto:ha1musov@yandex.ru)
-- GitHub: [github.com/haymuzz](https://github.com/haymuzz)
 
 ---
 
